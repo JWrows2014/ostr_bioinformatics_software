@@ -13,7 +13,7 @@ library(ggplot2)
 library(stringr)
 library(purrr)
 
-capability <- read.csv("capability_matrix_2026-01-26.csv")
+capability <- read.csv("capability_matrix_2026-02-13.csv")
 
 # -----------------------------
 # Shiny UI
@@ -93,10 +93,10 @@ server <- function(input, output, session) {
     }
     df
   })
-  
+
   output$matrix_table <- renderDT({
     df <- filtered() %>%
-      select(package, availability, category, capability, support, manual_url) %>%
+      select(package,category, capability, support) %>%
       arrange(category, capability, package)
     
     datatable(
@@ -107,5 +107,36 @@ server <- function(input, output, session) {
       escape = FALSE
     )
   })
+  
+  output$heatmap <- renderPlot({
+    df <- filtered() %>%
+      mutate(score = case_when(
+        support == "Yes" ~ 2,
+        support == "Partial" ~ 1,
+        support == "No" ~ 0
+      ))
+    
+    # Show only capabilities that have at least one "Yes" or "Partial" among selected pkgs
+    df2 <- df %>%
+      group_by(category, capability) %>%
+      filter(max(score, na.rm = TRUE) > 0) %>%
+      ungroup()
+    
+    validate(
+      need(nrow(df2) > 0, "No capabilities to plot with current filters (try including Partial/No or more categories).")
+    )
+    
+    ggplot(df2, aes(x = package, y = reorder(capability, score, FUN = max), fill = factor(score))) +
+      geom_tile(color = "white") +
+      labs(x = NULL, y = NULL, fill = "Support\n(no/partial/yes)") +
+      scale_fill_discrete(drop = FALSE) +
+      theme_minimal(base_size = 12) +
+      theme(
+        axis.text.x = element_text(angle = 25, hjust = 1),
+        panel.grid = element_blank()
+      )
+  })
+
 }
+
 shinyApp(ui, server)
