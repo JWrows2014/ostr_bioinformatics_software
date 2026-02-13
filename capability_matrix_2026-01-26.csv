@@ -1,0 +1,122 @@
+package,availability,category,capability,support,manual_url
+Partek Flow,NCI wide,NGS core,Raw read QC,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,NGS core,Trimming,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,NGS core,Read mapping to reference,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,NGS core,De novo assembly,No,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,NGS core,Long-read support,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,DNA variation,Variant calling (germline/somatic/other),Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,DNA variation,Variant annotation / consequence prediction,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Transcriptomics,Bulk RNA-seq (counts/DE workflows),Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Transcriptomics,Single-cell RNA-seq,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Transcriptomics,Spatial transcriptomics,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Transcriptomics,CITE-seq / multi-omic single-cell,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Transcriptomics,miRNA-seq,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Epigenomics,ChIP-seq,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Epigenomics,ATAC-seq,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Epigenomics,Bisulfite / methylation-seq,No,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Microbial,Metagenomics,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Biological interpretation,Pathway analysis / enrichment,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Biological interpretation,Gene set enrichment (GSEA),Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Visualization,Genome browser,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Visualization,PCA / dimensionality reduction,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Visualization,t-SNE,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Visualization,UMAP,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Visualization,Heatmaps + clustering,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Visualization,Volcano plots,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+Partek Flow,NCI wide,Operational,Workflow/pipeline builder,Yes,https://help.partek.illumina.com/partek-flow/user-manual
+QIAGEN CLC Genomics Workbench,NCI wide,NGS core,Raw read QC,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,NGS core,Trimming,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,NGS core,Demultiplexing,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,NGS core,Read mapping to reference,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,NGS core,De novo assembly,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,NGS core,Long-read support,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,DNA variation,Variant calling (germline/somatic/other),Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,DNA variation,Variant annotation / consequence prediction,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Transcriptomics,Bulk RNA-seq (counts/DE workflows),Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Transcriptomics,Single-cell RNA-seq,Yes (plugin available),https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Transcriptomics,CITE-seq / multi-omic single-cell,No,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Transcriptomics,miRNA-seq,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Epigenomics,ChIP-seq,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Epigenomics,ATAC-seq,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Epigenomics,Bisulfite / methylation-seq,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Microbial,Microbial genomics,Yes (plugin available),https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Biological interpretation,Gene set enrichment (GSEA),Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Biological interpretation,Gene ontology (GO) enrichment,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Visualization,Genome browser,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Visualization,PCA / dimensionality reduction,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Visualization,Heatmaps + clustering,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Visualization,Volcano plots,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Sequence & molecular biology,Sanger analysis,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Sequence & molecular biology,BLAST,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Sequence & molecular biology,Multiple sequence alignment,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Sequence & molecular biology,Phylogenetic trees,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Sequence & molecular biology,Primer design,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Sequence & molecular biology,Cloning tools,No,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Sequence & molecular biology,CRISPR tools,No,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+QIAGEN CLC Genomics Workbench,NCI wide,Operational,Workflow/pipeline builder,Yes,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+Qlucore Omics Explorer,NCI CCR only,NGS core,Raw read QC,No,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+Qlucore Omics Explorer,NCI CCR only,NGS core,Trimming,No,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+Qlucore Omics Explorer,NCI CCR only,NGS core,Demultiplexing,No,https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/2203/User_Manual.pdf
+Qlucore Omics Explorer,NCI CCR only,NGS core,Read mapping to reference,No,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,NGS core,De novo assembly,No,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,NGS core,Long-read support,No,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,DNA variation,Variant calling (germline/somatic/other),No,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,DNA variation,Variant annotation / consequence prediction,No,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Transcriptomics,Bulk RNA-seq (counts/DE workflows),Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Transcriptomics,Single-cell RNA-seq (counts/DE workflows/visualization),Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Transcriptomics,CITE-seq / multi-omic single-cell,Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Transcriptomics,miRNA-seq,Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Epigenomics,ChIP-seq,Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Epigenomics,ATAC-seq,Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Epigenomics,Bisulfite / methylation-seq,Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Microbial,Metagenomics,Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Biological interpretation,Pathway analysis / enrichment,Partial,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Biological interpretation,Gene set enrichment (GSEA),Yes,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Biological interpretation,Gene ontology (GO) browsing,Yes,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Visualization,Genome browser,No,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Visualization,PCA / dimensionality reduction,Yes,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Visualization,t-SNE / embedding plots,Yes,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Visualization,Heatmaps + clustering,Yes,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Visualization,Volcano plots,Yes,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Qlucore Omics Explorer,NCI CCR only,Machine learning,Built-in ML classification (SVM/kNN/trees/boosting),Yes,https://qlucore.com/sites/default/files/2021-12/Tutorial%203.8%20Mac%20A.pdf
+Geneious Prime,NCI CCR only,NGS core,Raw read QC,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,NGS core,Ttrimming,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,NGS core,Demultiplexing,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,NGS core,Read mapping to reference,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,NGS core,De novo assembly,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,NGS core,Long-read support,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,DNA variation,Variant calling (germline/somatic/other),Partial,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,DNA variation,Variant annotation / consequence prediction,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Transcriptomics,Bulk RNA-seq (counts/DE workflows),Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Transcriptomics,Single-cell RNA-seq,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Transcriptomics,CITE-seq / multi-omic single-cell,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Transcriptomics,miRNA-seq,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Epigenomics,ChIP-seq,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Epigenomics,ATAC-seq,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Epigenomics,Bisulfite / methylation-seq,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Microbial,Metagenomics,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Biological interpretation,Pathway analysis / enrichment,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Biological interpretation,Gene set enrichment (GSEA),No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Biological interpretation,Gene ontology (GO) browsing,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Visualization,Genome browser,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Visualization,PCA / dimensionality reduction,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Visualization,t-SNE / embedding plots,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Visualization,Heatmaps + clustering,No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Visualization,Volcano plots,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Machine learning,Built-in ML classification (SVM/kNN/trees/boosting),No,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Sequence & molecular biology,Multiple sequence alignment,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Sequence & molecular biology,Phylogenetic trees,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Sequence & molecular biology,Primer design,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Sequence & molecular biology,Cloning tools,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Sequence & molecular biology,CRISPR tools,Yes,https://manual.geneious.com/en/latest/
+Geneious Prime,NCI CCR only,Sequence & molecular biology,BLAST,Yes,https://manual.geneious.com/en/latest/
+Biodiscovery Nexus Copy Number,,DNA variation,"Copy number variation (CNV) detection from aCGH, SNP array, and NGS data",Yes,
+Biodiscovery Nexus Copy Number,,DNA variation,"Allele-specific copy number, LOH, and mosaicism analysis",Yes,
+Biodiscovery Nexus Copy Number,,Clinical genomics,"Visualization, annotation, and interpretation of CNVs with gene, disease, and pathway context",Yes,
+Qiagen IPA,NCI wide,Functional genomics,"Pathway, network, and upstream regulator analysis for gene expression and omics data",Yes,https://qiagen.my.salesforce-sites.com/KnowledgeBase/KnowledgeNavigatorPage?categoryName=IPA
+Qiagen IPA,NCI wide,Multi-omics,"Integration and interpretation of transcriptomics, proteomics, metabolomics, and variant data",Yes,https://qiagen.my.salesforce-sites.com/KnowledgeBase/KnowledgeNavigatorPage?categoryName=IPA
+Qiagen IPA,NCI wide,Biological interpretation,"Causal analysis, disease/function prediction, and literature-backed biological insights",Yes,https://qiagen.my.salesforce-sites.com/KnowledgeBase/KnowledgeNavigatorPage?categoryName=IPA
+SnapGene,NCI CCR only,Molecular biology,"Plasmid and DNA sequence visualization, annotation, and editing",Yes,https://support.snapgene.com/hc/en-us/sections/10387343592596-Manual
+SnapGene,NCI CCR only,Molecular cloning,"In silico cloning, restriction enzyme analysis, and primer design",Yes,https://support.snapgene.com/hc/en-us/sections/10387343592596-Manual
+SnapGene,NCI CCR only,Sequence analysis,"Simulation of PCR, Gibson Assembly, and other cloning workflows",Yes,https://support.snapgene.com/hc/en-us/sections/10387343592596-Manual
+Easy Panel,,Flow cytometry,Design of flow cytometry panels,Yes,https://www.easypanel.ai/resources/
