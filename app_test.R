@@ -13,7 +13,7 @@ library(ggplot2)
 library(stringr)
 library(purrr)
 
-capability <- read.csv("capability_matrix_2026-02-13.csv")
+capability <- read.csv("capability_matrix.csv")
 
 # -----------------------------
 # Shiny UI
@@ -82,10 +82,23 @@ ui <- fluidPage(
 server <- function(input, output, session) {
 
   filtered <- reactive({
+    validate(
+      need(
+        length(input$pkg) > 0 || length(input$cat) > 0 || length(input$support_filter) > 0,
+        "Please select at least one filter to view the software matrix."
+      )
+    )
+    
     df <- capability %>%
-      filter(package %in% input$pkg) %>%
-      filter(category %in% input$cat) %>%
-      filter(support %in% input$support_filter)
+      filter(
+        (is.null(input$pkg) | package %in% input$pkg),
+        (is.null(input$cat) | category %in% input$cat),
+        (is.null(input$support_filter) | support %in% input$support_filter))
+        
+    #df <- capability %>%
+      #filter((package %in% input$pkg) & (category %in% input$cat) & (support %in% input$support_filter)) #%>%
+      #filter(category %in% input$cat) %>%
+      #filter(support %in% input$support_filter)
     
     q <- str_trim(input$q)
     if (nzchar(q)) {
